@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding:0;
+} 
+.nav-link{
+    color: white;
+    font-size: 50px;
+}
+.nav-link:hover
+{
+    background: rgb(193, 190, 190);
+    
+    font-weight: bold;
+}
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec1
+{
+    height:600px;
+}
+.contact-left{
+    margin-right: 60%;
+    padding-top:80%;
+    display:grid; 
+    justify-content: start;
+    padding-bottom: 20%;
+}
+button:hover
+{
+    color: blue;
+}
+button{
+    gap: 2px;
+}
